@@ -1,0 +1,243 @@
+.img{
+    height: 100px; /*altura imagen */
+    vertical-align: middle;
+    margin-right: 250px;
+    border-right: 0px;
+    width:100px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    min-width: 715px;
+    /* display: flex;
+    flex-wrap: wrap; */
+
+}
+.table-responsive{
+    max-width: 1500px;
+    min-width: 715px;
+}
+
+.container1{
+    width: 100%;
+    max-width: 1500px;
+    border-color: rgb(194, 236, 236);
+}
+.tabla1{
+    border-color: rgb(194, 236, 236);
+    width:100%;
+    max-width: 1500px;
+}
+
+.hojadevida {
+    border-left: 0px;
+    width:100%;
+    vertical-align: center;
+}
+.entrecep{
+    width:25%;
+}
+input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: 0;
+    background-color:transparent;
+}
+
+.sinborde{
+    border: 0;
+}
+
+
+/* CONTENEDOR 2 */
+.container2{
+    width: 100%;
+}
+.datosper{
+    border-color: rgb(194, 236, 236);
+    width: 100%;
+}
+
+/* CONTENEDOR 3 */
+.container3{
+    width: 100%;
+}
+.documentacion{
+    border-color: rgb(194, 236, 236);
+    width: 100%;
+}
+
+/* CONTENEDOR 4 */
+.container4{
+    width: 100%;
+}
+.tablafech{
+    border-color: rgb(194, 236, 236);
+    width: 100%;
+}
+
+/* CONTENEDOR 5 */
+.container5{
+    width: 100%;
+}
+.formaaca{
+    border-color: rgb(194, 236, 236);
+    width: 100%;
+}
+
+
+
+
+.tablaidi1{
+    border-color: rgb(194, 236, 236);
+}
+/* .tablaedusup tr:nth-child(3){
+    border-color: #7E189E;
+    width: 100%;
+    color: #fff;
+	background-color: #c01616;
+} */
+
+
+/* TABLA EDUCACION SUPERIOR */
+.tablaedusup {
+    border-color: rgb(194, 236, 236);
+    width: 100%;
+}
+.tablaedusup tr:nth-child(4){
+    background-color: #bec1c7;
+}
+.tablaedusup tr:nth-child(6){
+    background-color: #bec1c7;
+}
+
+/* TABLA EDUCACION BASICA */
+.tedubas{
+
+    width: 70%;
+    border-color: rgb(219, 228, 228);
+    border-collapse: collapse;
+}
+.tedubas tr:nth-child(odd) {
+    background-color: #eaebec;
+}
+
+
+
+
+/* TABLA IDIOMA */
+.tablaidioma{
+    border-collapse: collapse;
+    width: 60%;
+    border-color: rgb(194, 236, 236);
+    margin: 0 auto;
+}
+.tablaidioma tr:nth-child(even){
+    background-color: #eaebec;
+}
+/* .tablaidioma tbody tr:hover{
+    background-color: rgb(156, 158, 155);
+} */
+.tablaidioma tbody td:hover{
+    background-color: rgb(114, 124, 109);
+}
+
+
+
+
+/* .container1{
+    width: 100%;
+}
+.container4{
+    width: 100%;
+}
+.container5{
+    width: 100%;
+}
+.container6{
+    width: 100%;
+}
+ */
+ .container3{
+    width: 100%;
+    max-width: 1500px;
+}
+.container6{
+    width: 100%;
+    max-width: 1500px;
+}
+ .container7{
+    width: 100%;
+    max-width: 1500px;
+}
+
+
+@media screen and (max-width: 480px){
+    .container{
+        height: auto;
+    }
+    .container1{
+        width: auto;
+    }
+    .container6{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+
+
+
+/* @media screen and (max-width: 600px){
+    .container{
+        border:0px;
+    }
+    table tr{
+        margin-bottom: 10px;
+        display:block;
+        border-bottom: 2px solid #ddd;
+    }
+    table td{
+        display:block;
+        text-align: right;
+        font-size: 16px;
+
+    }
+    .container1{
+        width: 60%;
+    }
+    .container2{
+        width: 60%;
+    }
+    .container3{
+        width: 60%;
+    }
+    .container4{
+        width: 60%;
+    }
+    .container5{
+        width: 60%;
+    }
+    .container6{
+        width: 60%;
+    }
+    .container7{
+        width: 60%;
+    } */
+}
+
+
+
+/*
+tbody tr:nth-child(even) {
+    background-color: #eee;
+    } */
+
+    /* tbody tr:nth-child(odd) {
+        background-color:#fadddd;
+        } */
